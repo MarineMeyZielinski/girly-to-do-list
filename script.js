@@ -51,7 +51,7 @@ function renderTasks() {
     // On crée un bouton "Supprimer" pour chaque tâche
 
     const deleteBtn = document.createElement("button");
-    deleteBtn.textContent = "Supprimer";
+    deleteBtn.textContent = "✗";
 
     // On ajoute un écouteur pour retirer la tâche du tableau
 

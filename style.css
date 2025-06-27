@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.charm-regular {
+  font-family: "Charm", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mogra-regular {
+  font-family: "Mogra", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-image: url(IMAGES/blue-flowers.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  place-items: center;
+  padding-bottom: 15px;
+  color: rgb(129, 192, 217);
+  font-family: "Charm", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  background-color: white;
+  padding: 15px;
+  width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0, 2);
+  overflow: hidden;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  width: 90%;
+  padding: 10px 5px;
+  height: 40px;
+  border: 1px solid rgb(117, 169, 212);
+  border-radius: 10px;
+  font-family: "Mogra", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#addTaskBtn {
+  width: 8%;
+  padding: 0.5rem;
+  border: none;
+  height: 40px;
+  background: rgb(132, 181, 221);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+#addTaskBtn:hover {
+  background: rgb(108, 149, 182);
+}
+
+li button {
+  background: #d86e79;
+  border: none;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+li {
+  text-align: center;
+  display: flex;
+  color: white;
+  background-color: rgb(132, 181, 221);
+  border: 3px solid white;
+  border-radius: 10px;
+  justify-content: space-between;
+  padding: 8px;
+  font-family: "Mogra", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
